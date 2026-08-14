@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# gopher
-=======
 # 🐹 Gopher
 
 A personal repository for learning **Go/Golang** from scratch through concepts, examples, and exercises in a progressive way
@@ -8,5 +5,3 @@ A personal repository for learning **Go/Golang** from scratch through concepts, 
 ## 📚 Table of Contents
 
 ### 1. Introduction
-
->>>>>>> 76539ea (README)
