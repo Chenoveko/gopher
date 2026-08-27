@@ -12,11 +12,11 @@ Basic concepts to get started with Go
 
 📁 [`introduction`](./introduction)
 
-### 2. Variables and Data Types
+### 2. Variables and Basic Data Types
 
-In progress
+Constants, variables and basic data types
 
-📁 [`variables_and_data_types`](./variables_and_data_types)
+📁 [`variables_and_basic_data_types`](./variables_and_basic_data_types)
 
 ### 3. Control Flow
 
