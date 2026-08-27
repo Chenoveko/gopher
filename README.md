@@ -14,7 +14,7 @@ Basic concepts to get started with Go
 
 ### 2. Variables and Basic Data Types
 
-Constants, variables and basic data types
+Constants, variables, basic data types, default values, casting, fmt package, math operators and the math package
 
 📁 [`variables_and_basic_data_types`](./variables_and_basic_data_types)
 

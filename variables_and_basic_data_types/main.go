@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"strconv"
 )
 
 // ============================================================
@@ -102,4 +103,87 @@ func main() {
 	var gopher rune = '🐹'
 	fmt.Println("Unicode code point for 🐹:", gopher)
 
+	// ============================================================
+	// Default Values
+	// ============================================================
+	var (
+		defaultInt    int
+		defaultUint   uint
+		defaultFloat  float32
+		defaultBool   bool
+		defaultString string
+	)
+	// Display all default values
+	fmt.Println("defaultInt:", defaultInt, "defaultUint:", defaultUint, "defaultFloat:", defaultFloat, "defaultBool:", defaultBool, "defaultString:", defaultString)
+
+	// ============================================================
+	// Casting
+	// ============================================================
+	// In Go casting is explicit
+	var integer16 int16 = 16
+	var integer32 int32 = 50
+	fmt.Println(int32(integer16) + integer32)
+
+	number_string := "100"
+	number_casted, _ := strconv.Atoi(number_string) // string -> int
+	fmt.Println("String -> Integer: ", int32(number_casted+number_casted))
+
+	string_number := 42
+	string_number_casted := strconv.Itoa(string_number) // int -> string
+	fmt.Println("Integer -> String: ", string_number_casted+string_number_casted)
+
+	// ============================================================
+	// fmt Package
+	// ============================================================
+	fmt.Print("Hello")
+	fmt.Print(" darling\n")
+
+	name := "Golang"
+	year := 2009
+
+	fmt.Printf("Hello, my name is %s and I was published in %d\n", name, year)
+	fmt.Printf("name data type: %T\n", name)
+	fmt.Printf("year data type: %T\n", year)
+
+	greeting := fmt.Sprintf("Hello, my name is %s and I was published in %d\n", name, year)
+	fmt.Println(greeting)
+
+	var string_input string
+	var int_input int
+	fmt.Print("String input: ")
+	fmt.Scanln(&string_input)
+	fmt.Print("Int input: ")
+	fmt.Scanln(&int_input)
+	fmt.Println("My inputs: ", string_input, int_input)
+
+	// ============================================================
+	// Math Operators and the math Package
+	// ============================================================
+	x := 10.0
+	y := 3.0
+
+	// Basic arithmetic operators
+	fmt.Println("Addition:", x+y)
+	fmt.Println("Subtraction:", x-y)
+	fmt.Println("Multiplication:", x*y)
+	fmt.Println("Division:", x/y)
+
+	// Functions from the math package
+	fmt.Println("Power:", math.Pow(2, 3))
+	fmt.Println("Square root:", math.Sqrt(64))
+	fmt.Println("Cube root:", math.Cbrt(27))
+
+	// Mathematical constants
+	fmt.Println("Pi:", math.Pi)
+	fmt.Println("Euler's number:", math.E)
+
+	// Increment and decrement
+	x++
+	y--
+	fmt.Println("x after increment:", x)
+	fmt.Println("y after decrement:", y)
+
+	// Assignment operator
+	x += 1
+	fmt.Println("x after x += 1:", x)
 }
