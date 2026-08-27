@@ -14,17 +14,23 @@ Basic concepts to get started with Go
 
 ### 2. Variables and Basic Data Types
 
-Constants, variables, basic data types, default values, casting, fmt package, math operators and the math package
+Constants, variables, basic data types, default values, casting, fmt package, math operators and themath package
 
 📁 [`variables_and_basic_data_types`](./variables_and_basic_data_types)
 
 ### 3. Control Flow
 
-In progress
+Boolean operators, if/else, switch, for loop, break and continue
 
 📁 [`control_flow`](./control_flow)
 
-### 4. Structs
+### 4. Functions
+
+Define/invoke functions and recursion
+
+📁 [`functions`](./functions)
+
+### 5. Structs
 
 In progress
 
