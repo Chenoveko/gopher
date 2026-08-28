@@ -38,7 +38,7 @@ Arrays, slices, and maps
 
 ### 6. Structs
 
-Define, instance it, pointers and implement methods
+Define, instance it, pointers, implement methods and custom types
 
 📁 [`structs`](./structs)
 
@@ -54,11 +54,11 @@ Module initialization, `go.mod`, `go.sum`...
 
 📁 [`modules`](./modules)
 
-### 9. Interfaces
+### 9. Go "OO" Approach
 
-In progress                       
+Encapsulation, composition, polimorfism and interfaces                    
 
-📁 [`interfaces`](./interfaces)
+📁 [`go_oo_approach`](./go_oo_approach)
 
 ---
 
@@ -66,8 +66,6 @@ In progress
 
 This repository will continue to grow as I progress through Rust
 
-* Create Modules
-* Interfaces
 * Channels and Go Routines
 * Generics
 * Go Web
@@ -94,5 +92,5 @@ This repository is based on the following learning resources:
 3. Abah, Joseph. *Go (Golang) Backend Masterclass: REST APIs & Microservices*. Udemy.  
    Available at: [udemy.com/course/go-backend-masterclass/](https://www.udemy.com/course/learn-golang-like-google-engineers-do).
 
-4. McGranaghan, Mark and Bendersky, Eli *Go by Example*. Internet.  
+4. McGranaghan, Mark and Bendersky, Eli. *Go by Example*. Internet.  
    Available at: [Go by Example](https://gobyexample.com/).
