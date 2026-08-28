@@ -14,7 +14,7 @@ Basic concepts to get started with Go
 
 ### 2. Variables and Basic Data Types
 
-Constants, variables, basic data types, default values, casting, fmt package, math operators and themath package
+Constants, variables, basic data types, default values, casting, fmt package, math operators and the math package
 
 📁 [`variables_and_basic_data_types`](./variables_and_basic_data_types)
 
@@ -30,11 +30,35 @@ Define/invoke functions and recursion
 
 📁 [`functions`](./functions)
 
-### 5. Structs
+### 5. Collection Data Types
 
-In progress
+Arrays, slices, and maps
+
+📁 [`collection_data_types`](./collection_data_types)
+
+### 6. Structs
+
+Define, instance it, pointers and implement methods
 
 📁 [`structs`](./structs)
+
+### 7. Error Handling
+
+Error handling, define errors, defer, handling panic with recover, anonymous functions and loggin errors
+
+📁 [`error_handling`](./error_handling)
+
+### 8. Go Modules 
+
+Module initialization, `go.mod`, `go.sum`...
+
+📁 [`modules`](./modules)
+
+### 9. Interfaces
+
+In progress                       
+
+📁 [`interfaces`](./interfaces)
 
 ---
 
@@ -42,7 +66,7 @@ In progress
 
 This repository will continue to grow as I progress through Rust
 
-* Maps
+* Create Modules
 * Interfaces
 * Channels and Go Routines
 * Generics
@@ -66,3 +90,9 @@ This repository is based on the following learning resources:
 
 2. Grider, Stephen. *Go: The Complete Developer's Guide (Golang)*. Udemy.  
    Available at: [udemy.com/course/go-the-complete-developers-guide/](https://www.udemy.com/course/go-the-complete-developers-guide/).
+
+3. Abah, Joseph. *Go (Golang) Backend Masterclass: REST APIs & Microservices*. Udemy.  
+   Available at: [udemy.com/course/go-backend-masterclass/](https://www.udemy.com/course/learn-golang-like-google-engineers-do).
+
+4. McGranaghan, Mark and Bendersky, Eli *Go by Example*. Internet.  
+   Available at: [Go by Example](https://gobyexample.com/).
