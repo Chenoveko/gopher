@@ -41,15 +41,6 @@ func random_number(min, max int) int {
 	return rand.Intn(max-min+1) + min
 }
 
-// Recursive function
-// A recursive function calls itself until it reaches a base case.
-func factorial(number int) int {
-	if number == 0 {
-		return 1
-	}
-	return number * factorial(number-1)
-}
-
 func main() {
 	// ============================================================
 	// Invoke Functions
@@ -71,10 +62,5 @@ func main() {
 	// Generate a random number between 1 and 100
 	number := random_number(1, 100)
 	fmt.Println("Random number:", number)
-
-	// ============================================================
-	// Recursion
-	// ============================================================
-	fmt.Println("Factorial of 5:", factorial(5))
 
 }

@@ -26,7 +26,7 @@ Boolean operators, if/else, switch, for loop, break and continue
 
 ### 4. Functions
 
-Define/invoke functions and recursion
+Define and invoke functions 
 
 📁 [`functions`](./functions)
 
@@ -60,20 +60,44 @@ Encapsulation, composition, polimorfism and interfaces
 
 📁 [`go_oo_approach`](./go_oo_approach)
 
+### 10. Concurrency
+
+Go  routines and channels                   
+
+📁 [`concurrency`](./concurrency)
+
+### 11. Advanced Functions
+
+Variadic functions, recursion, anonymous, higher-order and closures                
+
+📁 [`advanced_func`](./advanced_func)
+
+### 12. Generics
+
+Use of any, types, constraints and operators            
+
+📁 [`generics`](./generics)
+
+### 13. Go Web
+
+Web development with Go       
+
+📁 [`go_web`](./go_web)
+
 ---
 
 ## 🚀 Upcoming Topics
 
-This repository will continue to grow as I progress through Rust
+This repository will continue to grow as I progress through Go
 
-* Channels and Go Routines
-* Generics
-* Go Web
 * Go Tests
 
 ## 🛠️ Technologies
 
-* Go
+* go
+* html
+* css
+* sql
 
 ## 🎯 Goal
 
